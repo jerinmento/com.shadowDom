@@ -26,6 +26,7 @@ public class ShadowTest {
 		WebElement text=(WebElement)js.executeScript("return document.querySelector(\"body > downloads-manager\").shadowRoot.querySelector(\"#toolbar\").shadowRoot.querySelector(\"#toolbar\").shadowRoot.querySelector(\"#search\").shadowRoot.querySelector(\"#searchInput\")");
 		text.sendKeys("selenium");
 		String actual = driver.getTitle();
+		System.out.println("actual value is "+ actual);
 		assertEquals(actual,"Downloads", "The title is \"Downloads\" not actual");
 	}
 
