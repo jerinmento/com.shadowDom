@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-25T17:39:46 PST" name="Suite" finished-at="2022-01-25T17:39:49 PST" duration-ms="3554">
+    <groups>
+    </groups>
+    <test started-at="2022-01-25T17:39:46 PST" name="Test" finished-at="2022-01-25T17:39:49 PST" duration-ms="3554">
+      <class name="com.shadowDom.ShadowTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.shadowDom.ShadowTest@7880cdf3]" started-at="2022-01-25T17:39:46 PST" name="setup" finished-at="2022-01-25T17:39:49 PST" duration-ms="3324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googleDownloads()[pri:0, instance:com.shadowDom.ShadowTest@7880cdf3]" started-at="2022-01-25T17:39:49 PST" name="googleDownloads" finished-at="2022-01-25T17:39:49 PST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleDownloads -->
+      </class> <!-- com.shadowDom.ShadowTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
