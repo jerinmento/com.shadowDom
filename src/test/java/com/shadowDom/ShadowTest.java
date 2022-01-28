@@ -29,5 +29,20 @@ public class ShadowTest {
 		System.out.println("actual value is "+ actual);
 		assertEquals(actual,"Downloads", "The title is \"Downloads\" not actual");
 	}
+	
+	@Test
+	public void emptyTest1() {
+		
+	}
+	
+	@Test
+	public void emptyTest2() {
+		
+	}
+	
+	@Test
+	public void emptyTest3() {
+		
+	}
 
 }
